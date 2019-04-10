@@ -6,11 +6,11 @@ navbar:
   - text: Research
     href: research.html
   - text: Teaching
-    href: talks.html
+    href: teaching.html
   - text: Consulting
     href: software.html
   - text: Personal
-    href: teaching.html
+    href: personal.html
   right:
   - icon: fa-envelope fa-lg
     href: mailto:dpettenu@brandeis.edu
