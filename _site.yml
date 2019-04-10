@@ -1,0 +1,31 @@
+name: Davide Pettenuzzo
+output_dir: '.'
+navbar:
+  title: Davide Pettenuzzo
+  left:
+  - text: Research
+    href: research.html
+  - text: Teaching
+    href: talks.html
+  - text: Consulting
+    href: software.html
+  - text: Personal
+    href: teaching.html
+  right:
+  - icon: fa-envelope fa-lg
+    href: mailto:dpettenu@brandeis.edu
+  - icon: ai-google-scholar ai-2x
+    href: http://scholar.google.com/citations?user=uJqgL-EAAAAJ&hl=en
+  - icon: ai-ideas-repec ai-2x
+    href: https://ideas.repec.org/f/ppe516.html
+  - icon: fa-graduation-cap fa-lg
+    href: http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=386379
+  - icon: fa-linkedin fa-lg
+    href: http://www.linkedin.com/pub/davide-pettenuzzo/21/aa4/90b/
+output:
+  html_document:
+    theme: paper
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
+
