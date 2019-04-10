@@ -11,8 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \
 
+<font size="+1">
 
-### ECON 171a: Financial Economics</strong>
+## ECON 171a: Financial Economics</strong>
 
 The course covers topics related to financial economics, including investors attitudes toward risk, capital allocation, portfolio selection, asset pricing models (Capital Asset Pricing Model and Arbitrage Pricing Theory), the efficient market hypothesis, fixed income markets, equity valuation, and options and futures markets.    
 [Link to syllabus (Spring 2013)](files/2013.03.11 Econ 171a syllabus - revised.pdf)
@@ -20,20 +21,20 @@ The course covers topics related to financial economics, including investors att
 \
 
 
-### ECON 184b: Econometrics
+## ECON 184b: Econometrics
 This course provides an introduction to multiple regression methods for analyzing data in economics and related disciplines.  Starting from the linear regression method, the course will extend to regression with discrete random variables, instrumental variables regression, analysis of random experiments and quasi-experiments, and regression with time series data.  The objective of the course is twofold: (i) understand the logic and the key intuitions behind the various econometric procedures, and (ii) learn how to conduct and how to critique empirical studies in economics and related fields.  Accordingly, the course will devote significant space to empirical applications. Through the use of econometric software and a variety of empirical data sets, you will have the opportunity to gain hands-on experience on how to conduct empirical work in econometrics.     
 [Link to syllabus (Spring 2014)](files/2014.01.08 Econ 184b syllabus.pdf)
 
 \
 
 
-### ECON 213a: Applied Econometrics with R
+## ECON 213a: Applied Econometrics with R
 This course aims at introducing econometric models and empirical techniques that are useful to conduct economic research with data. The course covers linear regression models, discrete choice models, time series models, and panel data models. We will devote significant space to empirical applications, and give the students the opportunity to gain hands-on experience on how to conduct empirical work in econometrics using the R programming language.    
 [Link to syllabus (Fall 2018)](files/2018.03.25 Econ 213a syllabus.pdf)
 
 \
 
 
-### ECON 312a: Advanced Econometrics II
+## ECON 312a: Advanced Econometrics II
 This course examines the models and statistical techniques used to study time series data. Topics include linear and non-linear univariate as well as multivariate econometric models. The first goal of the course is to provide students with a good understanding of econometric models for time series data. These models are widely used in the empirical macroecomic and financial literature, and a good understanding of these models is crucial for the second goal of the course, provide students with the tools to understand and evaluate empirical studies. The third goal of the course is to develop empirical skills, which are necessary to perform independent research using real world data. A theme throughout the course is the use of computational methods for analyzing the material covered in class, and throughout the course we will rely heavily on examples and applications using the software MatLab.     
 [Link to syllabus (Spring 2014)](files/2014.02.27 Econ 312a syllabus.pdf)
