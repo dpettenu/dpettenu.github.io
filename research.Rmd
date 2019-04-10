@@ -1,5 +1,4 @@
 ---
-title: "Research"
 output: html_document
 ---
 
@@ -10,9 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Working papers
+\
+
+
+## Working papers
 
 <font size="+1">
+
 
 * Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (September 2018) [Cash Flow News and Stock Price Dynamics](http://ssrn.com/abstract=3127042), __Revise & Resubmit__  <br /> 
 
@@ -33,8 +36,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
     __Abstract__: We develop a novel method to impose constraints on univariate predictive regressions of stock returns. Unlike the previous approaches in the literature, we implement our constraints directly on the predictor, setting it to zero whenever its value falls within the variable's past 24-month high and low. Empirically, we find that relative to standard unconstrained predictive regressions, our approach leads to significantly larger forecast gains. We also show how a simple equal-weighted combination of our constrained forecasts leads to further improvements in forecast accuracy, generating forecasts that are more accurate than those obtained using existing constrained methods. Further analysis confirms that these findings are robust to the presence of model instabilities and structural breaks. </p>
 
- 
-# Published and forthcoming articles
+\
+
+
+## Published and forthcoming articles
 
 * <a href="https://sites.google.com/site/dimitriskorobilis/" target="_blank" style="text-decoration: none"> Korobilis, D.</a>, Pettenuzzo, D. (2018) &nbsp; Adaptive Hierarchical Priors for High-Dimensional Vector Autoregressions, <em><strong>Journal of Econometrics</strong></em>, forthcoming  <br />
  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886053" target="_blank">[Working paper]</a> </p>
@@ -76,13 +81,16 @@ knitr::opts_chunk$set(echo = TRUE)
 * <a href="http://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003600" target="_blank" style="text-decoration: none"> Pesaran, H.</a>, Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/" target="_blank" style="text-decoration: none"> Timmermann, A.</a> (2006) &nbsp; Forecasting Time Series subject to Structural Breaks,   <em><strong>Review of Economic Studies</strong></em>, 73: 1057-1084 <br />
  <a href="http://restud.oxfordjournals.org/content/73/4/1057.full" target="_blank">[Published version]</a> &nbsp; &nbsp; <a href="files/Peesaran et al (2006).pdf" target="_blank">[Working paper]</a> &nbsp; &nbsp; <a href="files/2006 ReStud codes.zip" target="_blank">[Matlab codes]</a> </p>
 
+\
 
-# Work in progress
 
- <font size="+1">
+## Work in progress
+
+<font size="+1">
 
 
 * <a href="https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/" target="_blank" style="text-decoration: none"> Kastner, G.</a>, Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/" target="_blank" style="text-decoration: none"> Timmermann, A.</a> &nbsp; Time-varying Risk Premia and Volatility Dynamics in Multi-Asset Class Returns
 
 
 * <a href="https://www2.bc.edu/pierluigi-balduzzi/" target="_blank" style="text-decoration: none"> Balduzzi, P.</a>, Pettenuzzo, D. &nbsp; Parameter Uncertainty and Valuations  <br /> <br />
+
