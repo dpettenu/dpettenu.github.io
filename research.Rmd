@@ -1,0 +1,94 @@
+---
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="css/academicons.min.css"/>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\
+
+
+## Working papers
+
+<font size="+1">
+
+
+* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (September 2018) [Cash Flow News and Stock Price Dynamics](http://ssrn.com/abstract=3127042), __Revise & Resubmit__  <br /> 
+
+    __INQUIRE Europe 2017 Research Grant__
+
+    __Presentations__: Utah Winter Finance Conference (2019), SFS Asia Pacific (2018), BI-SHOF (2018), TSE Financial Econometrics Conference (2018), NBER-NSF SBIES (2018), IAAE (2018)
+
+    __Abstract__:  We develop a new approach to modeling dynamics in cash flow data extracted from daily firm-level dividend announcements. We decompose the daily cash flow news series into a persistent component, jumps, and temporary shocks. Empirically, we find that the persistent cash flow growth component predicts future dividend growth and is significantly positively correlated with stock market returns. Cash flow dynamics have sizeable and long-lasting effects on the volatility and jump probability of stock returns through an uncertainty transmission channel. Finally, we find that news about the persistent cash flow growth component is correlated with a variety of cross-sectional risk factors. </p>
+
+* [Carvalho, C.](http://faculty.mccombs.utexas.edu/carlos.carvalho/personal.html), [Fisher, J.](https://www.linkedin.com/pub/jared-fisher/21/809/362), Pettenuzzo, D. (September 2018) [Optimal Asset Allocation with Multivariate Bayesian Dynamic Linear Models](http://ssrn.com/abstract=3254935), __Under review__ 
+
+    __Presentations__: NBER-NSF Time Series Conference (2018), NBER-NSF SBIES (2017) 
+
+    __Abstract__: We introduce a simulation-free method to forecast multiple asset returns and employ it to investigate the optimal ensemble of features to include when jointly predicting stock and bond returns. Our approach builds on the Bayesian Dynamic Linear Models of West and Harrison (1997) and allows the data, through an automated procedure, to determine which regressors to include as well as the degree to which the model coefficients, volatilities, and covariances should vary over time. When applied to a portfolio of five stock and bond returns, our method leads to large forecast gains, both in statistical and economic terms. </p>
+
+ 
+* [Pan, Z.](https://www.researchgate.net/profile/Zhiyuan_Pan2), Pettenuzzo, D., [Wang, Y.](https://www.researchgate.net/profile/Yudong_Wang12/publications) (April 2018) [Forecasting Stock Returns: A Predictor-constrained Approach](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3054652) __Under review__
+
+    __Abstract__: We develop a novel method to impose constraints on univariate predictive regressions of stock returns. Unlike the previous approaches in the literature, we implement our constraints directly on the predictor, setting it to zero whenever its value falls within the variable's past 24-month high and low. Empirically, we find that relative to standard unconstrained predictive regressions, our approach leads to significantly larger forecast gains. We also show how a simple equal-weighted combination of our constrained forecasts leads to further improvements in forecast accuracy, generating forecasts that are more accurate than those obtained using existing constrained methods. Further analysis confirms that these findings are robust to the presence of model instabilities and structural breaks. </p>
+
+\
+
+
+## Published and forthcoming articles
+
+* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D. (2018) Adaptive Hierarchical Priors for High-Dimensional Vector Autoregressions, __Journal of Econometrics__, forthcoming  
+ [[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886053)
+
+
+* [Koop, G.](http://personal.strath.ac.uk/gary.koop/), [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/) , Pettenuzzo, D. (2019) Bayesian Compressed Vector Autoregressions, __Journal of Econometrics__, 210: 135-154 \
+  [[Published version]](https://doi.org/10.1016/j.jeconom.2018.11.009) &nbsp; &nbsp; [[Working paper]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2754241) &nbsp; &nbsp; [[Online Appendix]](files/2017_06_05_BCVAR_Appendix.pdf) 
+
+ 
+* [Gargano, A.](http://fbe.unimelb.edu.au/finance/staff/academic/2524), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) (2019) Bond Return Predictability: Economic Value and Links to the Macroeconomy, __Management Science__,  65: 508-540  
+[[Published version]](http://pubsonline.informs.org/doi/abs/10.1287/mnsc.2017.2829) &nbsp; &nbsp; [[Working paper]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2471273) &nbsp; &nbsp; [[Online Appendix]](files/2017_04_18_bond_return_predictability_ON_LINE_APPENDIX.pdf) 
+ 
+* [Metaxoglou, K.](http://carleton.ca/economics/people/metaxoglou-konstantinos/), Pettenuzzo, D., [Smith, A.](http://are.ucdavis.edu/en/people/faculty/aaron-smith/#pk_campaign=short-name-redirect&pk_kwd=asmith) (2018) Option-Implied Equity Premium Predictions via Entropic Tilting, __Journal of Financial Econometrics__  
+[[Published version]](https://academic.oup.com/jfec/advance-article/doi/10.1093/jjfinec/nby009/4990347?guestAccessKey=f0f47b76-326d-42f3-a65b-ee13999ca827) &nbsp; &nbsp; [[Working paper]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2754246) &nbsp; &nbsp; [[Online Appendix]](files/MPS_JFEC_APX.pdf) 
+
+* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) (2017) Forecasting Macroeconomic Variables Under Model Instability, __Journal of Business and Economic Statistics__, 35: 183-201  
+[[Published version]](http://www.tandfonline.com/doi/abs/10.1080/07350015.2015.1051183) &nbsp; &nbsp; [[Working paper]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2603879) &nbsp; &nbsp; [[Online Appendix]](files/Appendix_JBES_2015_May_5.pdf)  
+
+* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Valkanov, R.](http://rady.ucsd.edu/faculty/directory/valkanov/) (2016) A MIDAS Approach to Modeling First and Second Moment Dynamics, __Journal of Econometrics__, 193: 315-334  
+[[Published version]](http://www.sciencedirect.com/science/article/pii/S0304407616300665) &nbsp; &nbsp; [[Working paper]](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2471287)
+
+* Pettenuzzo, D., [Ravazzolo, F.](http://francescoravazzolo.com/) (2016) Optimal Potfolio Choice under Decision-Based Model Combinations, __Journal of Applied Econometrics__, 31: 1312-1332  
+[[Published version]](http://onlinelibrary.wiley.com/doi/10.1002/jae.2502/abstract) &nbsp; &nbsp; [[Working paper]](http://ssrn.com/abstract=2516950) &nbsp; &nbsp; [[Online Appendix]](files/Pettenuzzo_Ravazzolo_JAE_Appendix_Nov04.pdf)
+
+* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Valkanov, R.](http://rady.ucsd.edu/faculty/directory/valkanov/)  (2014) Forecasting Stock Returns under Economic Constraints,  __Journal of Financial Economics__, 114: 517-553  
+[[Published version]](http://dx.doi.org/10.1016/j.jfineco.2014.07.015) &nbsp; &nbsp; [[Working paper]](files/2013.12.02 Pettenuzzo_Timmermann_Valkanov.pdf)
+
+* Pettenuzzo, D., [White, H.](http://economics.ucsd.edu/facRes/inMemoriam/whiteHalbert/) (2014) Granger Causality, Exogeneity, Cointegration, and Economic Policy Analysis, __Journal of Econometrics__, 178: 316-330  
+[[Published version]](http://www.sciencedirect.com/science/article/pii/S0304407613001942) &nbsp; &nbsp; [[Working paper]](files/2011_10_31 Pettenuzzo and White.pdf)
+
+* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) (2011) Predictability of Stock Returns and Asset Allocation under Structural Breaks,  __Journal of Econometrics__, 164: 60-78  
+[[Published version]](http://www.sciencedirect.com/science/article/pii/S0304407611000479) &nbsp; &nbsp; [[Working paper]](files/Pettenuzzo and Timmermann (2011).pdf) &nbsp; &nbsp; [[Matlab codes]](files/2011 JoE codes.zip)
+
+* [Pesaran, H.](http://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003600), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) (2007) Learning, Structural Instability, and Present Value Calculations, __Econometric Reviews__, 26: 253-288  
+[[Published version]](http://www.tandfonline.com/doi/abs/10.1080/07474930701220352) &nbsp; &nbsp; [[Working paper]](files/Pesaran et al (2007).pdf)
+
+* [Pesaran, H.](http://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003600), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) (2006) Forecasting Time Series subject to Structural Breaks, __Review of Economic Studies__, 73: 1057-1084    
+[[Published version]](http://restud.oxfordjournals.org/content/73/4/1057.full) &nbsp; &nbsp; [[Working paper]](files/Pesaran et al (2006).pdf) &nbsp; &nbsp; [[Matlab codes]](files/2006 ReStud codes.zip)
+
+\
+
+
+## Work in progress
+
+<font size="+1">
+
+
+* [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) Time-varying Risk Premia and Volatility Dynamics in Multi-Asset Class Returns
+
+
+* [Balduzzi, P.](https://www2.bc.edu/pierluigi-balduzzi/), Pettenuzzo, D. Parameter Uncertainty and Valuations  
+
