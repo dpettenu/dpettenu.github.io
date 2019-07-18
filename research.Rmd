@@ -86,6 +86,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
+* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D., Machine learning econometrics: Bayesian algorithms and methods, in preparation for the __Oxford Research Encyclopedia: Economics and Finance__
 
 * [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) Time-varying Risk Premia and Volatility Dynamics in Multi-Asset Class Returns
 
