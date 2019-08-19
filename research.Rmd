@@ -41,7 +41,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Published and forthcoming articles
 
-* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D. (2019) Adaptive Hierarchical Priors for High-Dimensional Vector Autoregressions, __Journal of Econometrics__  
+* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D. (2019) Adaptive Hierarchical Priors for High-Dimensional Vector Autoregressions, __Journal of Econometrics__, 212: 241-271 \
 [[Published version]](https://doi.org/10.1016/j.jeconom.2019.04.029) &nbsp; &nbsp; [[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886053) &nbsp; &nbsp;  
 
 
