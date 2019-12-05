@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * [Pan, Z.](https://www.researchgate.net/profile/Zhiyuan_Pan2), Pettenuzzo, D., [Wang, Y.](https://www.researchgate.net/profile/Yudong_Wang12/publications), Forecasting Stock Returns: A Predictor-constrained Approach __Journal of Empirical Finance__, _forthcoming_
 \
-[[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3054652) &nbsp; &nbsp;  
+  [[Published version]](https://doi.org/10.1016/j.jempfin.2019.11.008) &nbsp; &nbsp; [[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3054652) &nbsp; &nbsp;  
 
 * [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D. (2019) Adaptive Hierarchical Priors for High-Dimensional Vector Autoregressions, __Journal of Econometrics__, 212: 241-271 \
 [[Published version]](https://doi.org/10.1016/j.jeconom.2019.04.029) &nbsp; &nbsp; [[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886053) &nbsp; &nbsp;  
