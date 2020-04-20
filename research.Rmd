@@ -29,11 +29,11 @@ knitr::opts_chunk$set(echo = TRUE)
 * Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Cash Flow News and Stock Price Dynamics, __Journal of Finance__, _forthcoming_  
 [[Working paper]](http://ssrn.com/abstract=3127042) &nbsp; &nbsp;  
 
-* [Carvalho, C.](http://faculty.mccombs.utexas.edu/carlos.carvalho/personal.html), [Fisher, J.](https://www.linkedin.com/pub/jared-fisher/21/809/362), Pettenuzzo, D. Optimal Asset Allocation with Multivariate Bayesian Dynamic Linear Models, __Annals of Applied Statistics__, _forthcoming_ 
+* [Carvalho, C.](http://faculty.mccombs.utexas.edu/carlos.carvalho/personal.html), [Fisher, J.](https://www.linkedin.com/pub/jared-fisher/21/809/362), Pettenuzzo, D. (2020) Optimal Asset Allocation with Multivariate Bayesian Dynamic Linear Models, __Annals of Applied Statistics__, 14: 299-338
 \
-[[Working paper]](http://ssrn.com/abstract=3254935) &nbsp; &nbsp;  
+[[Published version]](https://projecteuclid.org/euclid.aoas/1587002676) &nbsp; &nbsp; [[Working paper]](http://ssrn.com/abstract=3254935) &nbsp; &nbsp;  
 
-* [Pan, Z.](https://www.researchgate.net/profile/Zhiyuan_Pan2), Pettenuzzo, D., [Wang, Y.](https://www.researchgate.net/profile/Yudong_Wang12/publications), Forecasting Stock Returns: A Predictor-constrained Approach __Journal of Empirical Finance__, _forthcoming_
+* [Pan, Z.](https://www.researchgate.net/profile/Zhiyuan_Pan2), Pettenuzzo, D., [Wang, Y.](https://www.researchgate.net/profile/Yudong_Wang12/publications) (2020) Forecasting Stock Returns: A Predictor-constrained Approach __Journal of Empirical Finance__, 55: 200-217
 \
   [[Published version]](https://doi.org/10.1016/j.jempfin.2019.11.008) &nbsp; &nbsp; [[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3054652) &nbsp; &nbsp;  
 
@@ -82,7 +82,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
-* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D., Machine learning econometrics: Bayesian algorithms and methods, in preparation for the __Oxford Research Encyclopedia: Economics and Finance__
+* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D., Machine Learning Econometrics: Bayesian Algorithms and Methods, in preparation for the __Oxford Research Encyclopedia: Economics and Finance__ \
+[[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433) &nbsp; &nbsp; 
 
 * [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) Time-varying Risk Premia and Volatility Dynamics in Multi-Asset Class Returns
 
