@@ -26,8 +26,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
+* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D., Machine Learning Econometrics: Bayesian Algorithms and Methods, __Oxford Research Encyclopedia: Economics and Finance__, _forthcoming_ \
+[[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433) &nbsp; &nbsp; 
+
 * Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Cash Flow News and Stock Price Dynamics, __Journal of Finance__, _forthcoming_  
-[[Working paper]](http://ssrn.com/abstract=3127042) &nbsp; &nbsp;  
+[[Published version]](https://doi.org/10.1111/jofi.12901) &nbsp; &nbsp; [[Working paper]](http://ssrn.com/abstract=3127042) &nbsp; &nbsp; [[Online Appendix]](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.12901&file=jofi12901-sup-0001-OnlineAppendix.pdf)  
 
 * [Carvalho, C.](http://faculty.mccombs.utexas.edu/carlos.carvalho/personal.html), [Fisher, J.](https://www.linkedin.com/pub/jared-fisher/21/809/362), Pettenuzzo, D. (2020) Optimal Asset Allocation with Multivariate Bayesian Dynamic Linear Models, __Annals of Applied Statistics__, 14: 299-338
 \
@@ -82,8 +85,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
-* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D., Machine Learning Econometrics: Bayesian Algorithms and Methods, in preparation for the __Oxford Research Encyclopedia: Economics and Finance__ \
-[[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433) &nbsp; &nbsp; 
 
 * [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) Time-varying Risk Premia and Volatility Dynamics in Multi-Asset Class Returns
 
