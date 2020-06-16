@@ -12,14 +12,15 @@ knitr::opts_chunk$set(echo = TRUE)
 \
 
 
-<!-- ## Working papers -->
+## Working papers 
 
-<!-- <font size="+1"> -->
+<font size="+1">
 
+* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Dividend Suspensions and Cash Flow Risk during the Covid-19
+Pandemic \
+[[SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608)  
 
-
-
-<!-- \ -->
+> We examine the effect of the Covid-19 pandemic on firms’ decisions to suspend dividends and estimate a model that quantifies the effect of suspensions on growth in aggregate dividends. Our estimates show that dividend suspensions had a large impact on expected future dividend growth and also helped predict the sharp declines observed in broader measures of economic activity. Firms with high leverage and low profitability were more likely to have suspended their dividends during the pandemic as were firms with the largest negative stock returns prior to the dividend announcement date. While firms that suspended their dividends experienced large negative abnormal returns, firms that substantially reduced but did not entirely eliminate dividends saw large positive abnormal returns around the announcement date.
 
 
 ## Published and forthcoming articles
