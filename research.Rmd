@@ -16,21 +16,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
-* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Dividend Suspensions and Cash Flow Risk during the Covid-19
-Pandemic \
-[[SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608)  
+* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Dividend Suspensions and Cash Flows During the Covid-19 Pandemic: A Dynamic Econometric Model (December 2020)\
+[[Link to SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608)  
 
-> We examine the effect of the Covid-19 pandemic on firms’ decisions to suspend dividends and estimate a model that quantifies the effect of suspensions on growth in aggregate dividends. Our estimates show that dividend suspensions had a large impact on expected future dividend growth and also helped predict the sharp declines observed in broader measures of economic activity. Firms with high leverage and low profitability were more likely to have suspended their dividends during the pandemic as were firms with the largest negative stock returns prior to the dividend announcement date. While firms that suspended their dividends experienced large negative abnormal returns, firms that substantially reduced but did not entirely eliminate dividends saw large positive abnormal returns around the announcement date.
+> Firms suspended dividend payments in unprecedented numbers and at unparalleled speed in response to the outbreak of the Covid-19 pandemic. We develop a dynamic econometric model that allows dividend suspensions to affect the conditional mean, volatility, and jump probability of growth in daily dividends and demonstrate how the parameters of this model can be estimated using Bayesian Gibbs sampling methods. We find that dividend suspensions had a sharp and immediate impact on the conditional mean and volatility of daily dividend growth. Information embedded in daily dividend suspensions proves valuable in monitoring and predicting the trajectory of broader measures of economic activity during the pandemic.
 
 
 ## Published and forthcoming articles
 
 <font size="+1">
 
-* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D., Machine Learning Econometrics: Bayesian Algorithms and Methods, __Oxford Research Encyclopedia: Economics and Finance__, _forthcoming_ \
-[[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433) &nbsp; &nbsp; 
+* [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D., Machine Learning Econometrics: Bayesian Algorithms and Methods (2020), __Oxford Research Encyclopedia: Economics and Finance__  \
+[[Published version]](https://doi.org/10.1093/acrefore/9780190625979.013.588) &nbsp; &nbsp; [[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433) &nbsp; &nbsp; 
 
-* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Cash Flow News and Stock Price Dynamics, __Journal of Finance__, _forthcoming_  
+* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (2020) Cash Flow News and Stock Price Dynamics, __Journal of Finance__, 75: 2221-2270    
 [[Published version]](https://doi.org/10.1111/jofi.12901) &nbsp; &nbsp; [[Working paper]](http://ssrn.com/abstract=3127042) &nbsp; &nbsp; [[Online Appendix]](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.12901&file=jofi12901-sup-0001-OnlineAppendix.pdf)  
 
 * [Carvalho, C.](http://faculty.mccombs.utexas.edu/carlos.carvalho/personal.html), [Fisher, J.](https://www.linkedin.com/pub/jared-fisher/21/809/362), Pettenuzzo, D. (2020) Optimal Asset Allocation with Multivariate Bayesian Dynamic Linear Models, __Annals of Applied Statistics__, 14: 299-338
@@ -87,8 +86,10 @@ Pandemic \
 <font size="+1">
 
 
+* Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) The Term Structure and Cross-Section of Cash Flow Risk (September 2020)  
+  + _INQUIRE 2020 Europe Research Grant_
+  
 * [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) Time-varying Risk Premia and Volatility Dynamics in Multi-Asset Class Returns
 
 
-* [Balduzzi, P.](https://www2.bc.edu/pierluigi-balduzzi/), Pettenuzzo, D. Parameter Uncertainty and Valuations  
 

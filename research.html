@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>research.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,7 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -71,9 +72,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -87,13 +86,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -109,7 +113,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -129,6 +132,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -150,19 +190,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -240,20 +335,20 @@ $(document).ready(function () {
 <h2>Working papers</h2>
 <p><font size="+1"></p>
 <ul>
-<li>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> Dividend Suspensions and Cash Flow Risk during the Covid-19 Pandemic<br />
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608">[SSRN version]</a></li>
+<li>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> Dividend Suspensions and Cash Flows During the Covid-19 Pandemic: A Dynamic Econometric Model (December 2020)<br />
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608">[Link to SSRN version]</a></li>
 </ul>
 <blockquote>
-<p>We examine the effect of the Covid-19 pandemic on firms’ decisions to suspend dividends and estimate a model that quantifies the effect of suspensions on growth in aggregate dividends. Our estimates show that dividend suspensions had a large impact on expected future dividend growth and also helped predict the sharp declines observed in broader measures of economic activity. Firms with high leverage and low profitability were more likely to have suspended their dividends during the pandemic as were firms with the largest negative stock returns prior to the dividend announcement date. While firms that suspended their dividends experienced large negative abnormal returns, firms that substantially reduced but did not entirely eliminate dividends saw large positive abnormal returns around the announcement date.</p>
+<p>Firms suspended dividend payments in unprecedented numbers and at unparalleled speed in response to the outbreak of the Covid-19 pandemic. We develop a dynamic econometric model that allows dividend suspensions to affect the conditional mean, volatility, and jump probability of growth in daily dividends and demonstrate how the parameters of this model can be estimated using Bayesian Gibbs sampling methods. We find that dividend suspensions had a sharp and immediate impact on the conditional mean and volatility of daily dividend growth. Information embedded in daily dividend suspensions proves valuable in monitoring and predicting the trajectory of broader measures of economic activity during the pandemic.</p>
 </blockquote>
 </div>
 <div id="published-and-forthcoming-articles" class="section level2">
 <h2>Published and forthcoming articles</h2>
 <p><font size="+1"></p>
 <ul>
-<li><p><a href="https://sites.google.com/site/dimitriskorobilis/">Korobilis, D.</a>, Pettenuzzo, D., Machine Learning Econometrics: Bayesian Algorithms and Methods, <strong>Oxford Research Encyclopedia: Economics and Finance</strong>, <em>forthcoming</em><br />
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433">[Working paper]</a>    </p></li>
-<li><p>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> Cash Flow News and Stock Price Dynamics, <strong>Journal of Finance</strong>, <em>forthcoming</em><br />
+<li><p><a href="https://sites.google.com/site/dimitriskorobilis/">Korobilis, D.</a>, Pettenuzzo, D., Machine Learning Econometrics: Bayesian Algorithms and Methods (2020), <strong>Oxford Research Encyclopedia: Economics and Finance</strong><br />
+<a href="https://doi.org/10.1093/acrefore/9780190625979.013.588">[Published version]</a>     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433">[Working paper]</a>    </p></li>
+<li><p>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> (2020) Cash Flow News and Stock Price Dynamics, <strong>Journal of Finance</strong>, 75: 2221-2270<br />
 <a href="https://doi.org/10.1111/jofi.12901">[Published version]</a>     <a href="http://ssrn.com/abstract=3127042">[Working paper]</a>     <a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.12901&amp;file=jofi12901-sup-0001-OnlineAppendix.pdf">[Online Appendix]</a></p></li>
 <li><p><a href="http://faculty.mccombs.utexas.edu/carlos.carvalho/personal.html">Carvalho, C.</a>, <a href="https://www.linkedin.com/pub/jared-fisher/21/809/362">Fisher, J.</a>, Pettenuzzo, D. (2020) Optimal Asset Allocation with Multivariate Bayesian Dynamic Linear Models, <strong>Annals of Applied Statistics</strong>, 14: 299-338<br />
 <a href="https://projecteuclid.org/euclid.aoas/1587002676">[Published version]</a>     <a href="http://ssrn.com/abstract=3254935">[Working paper]</a>    </p></li>
@@ -291,8 +386,11 @@ $(document).ready(function () {
 <h2>Work in progress</h2>
 <p><font size="+1"></p>
 <ul>
-<li><p><a href="https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/">Kastner, G.</a>, Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a> Time-varying Risk Premia and Volatility Dynamics in Multi-Asset Class Returns</p></li>
-<li><p><a href="https://www2.bc.edu/pierluigi-balduzzi/">Balduzzi, P.</a>, Pettenuzzo, D. Parameter Uncertainty and Valuations</p></li>
+<li>Pettenuzzo, D., <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> The Term Structure and Cross-Section of Cash Flow Risk (September 2020)
+<ul>
+<li><em>INQUIRE 2020 Europe Research Grant</em></li>
+</ul></li>
+<li><a href="https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/">Kastner, G.</a>, Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a> Time-varying Risk Premia and Volatility Dynamics in Multi-Asset Class Returns</li>
 </ul>
 </div>
 
@@ -313,6 +411,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
