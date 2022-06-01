@@ -11,7 +11,7 @@
 \
 \
 
-<p style="text-align:justify"> I am an Associate Professor of Financial Econometrics in the Brandeis International Business School. My research interests include time-series econometrics, Bayesian econometrics, asset allocation, portfolio optimization, and econometric methods in finance. I serve as an associate editor for the [Journal of Business and Economic Statistics](http://amstat.tandfonline.com/toc/ubes20/current) and the [Journal of Financial Econometrics](http://jfec.oxfordjournals.org/). At Brandeis University, I teach econometrics at the undergraduate and graduate levels, as well as Financial Economics. </p>
+<p style="text-align:justify"> I am a Professor of Financial Econometrics in the Brandeis International Business School. My research interests include time-series econometrics, Bayesian econometrics, asset allocation, portfolio optimization, and econometric methods in finance. I serve as an associate editor for the [Journal of Business and Economic Statistics](http://amstat.tandfonline.com/toc/ubes20/current) and the [Journal of Financial Econometrics](http://jfec.oxfordjournals.org/). At Brandeis University, I teach econometrics at the undergraduate and graduate levels, as well as Financial Economics. </p>
 
 \
 \
