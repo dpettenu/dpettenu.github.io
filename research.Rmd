@@ -91,10 +91,14 @@ knitr::opts_chunk$set(echo = TRUE)
 <font size="+1">
 
 
-* Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) The Term Structure and Cross-Section of Cash Flow Risk (September 2020)  
+* Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) The Term Structure and Cross-Section of Cash Flow Risk
   + _INQUIRE 2020 Europe Research Grant_
   
-* [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) Time-varying Risk Premia and Volatility Dynamics in Multi-Asset Class Returns
+* Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  High-frequency fundamentals
+  
+* [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  Modeling Stock-Bond Correlations
+
+* [Chan, J.](https://joshuachan.org), Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Zhu, D.](https://research.monash.edu/en/persons/dan-zhu) Conditional Forecasts in Large Bayesian VARs with Multiple Conditions
 
 
 
