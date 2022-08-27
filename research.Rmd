@@ -16,16 +16,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
+* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Firm Value and Payout Suspensions During Financial Market Distress (August 2022)\
+[[Link to SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3823258)  
+
+> We use high-frequency data on firms’ dividend and buyback suspensions to estimate the effect on firm value from preserving cash during periods of financial market distress such as the Global Financial Crisis and the Covid-19 pandemic. Our results suggest that saving one percent in cash by suspending dividends is associated with a 2.5 percent increase in firm value. New dynamic tests based on the sequencing of firms’ financing decisions suggest that firm behavior was more in line with the Myers and Majluf (1984) pecking order theory during the pandemic than during the Global Financial Crisis.
+
 * Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Dividend Suspensions and Cash Flows During the Covid-19 Pandemic: A Dynamic Econometric Model (May 2022)\
 [[Link to SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608)  
 
 > Firms suspended dividend payments in unprecedented numbers in response to the outbreak of the Covid-19 pandemic. We develop a multivariate dynamic econometric model that allows dividend suspensions to affect the conditional mean, volatility, and jump probability of growth in daily industry-level dividends and demonstrate how the parameters of this model can be estimated using Bayesian Gibbs sampling methods. We find considerable heterogeneity across industries in the dynamics of daily dividend growth and the impact of dividend suspensions.
-
-* Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Outlasting a Pandemic: Corporate Payout Policy and Capital Structure Decisions During Covid-19 (April 2021)\
-[[Link to SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3823258)  
-
-> The outbreak of the COVID-19 pandemic was a massive uncertainty shock to corporate cash flows. We examine its effect on firms’ strategies for preserving short-term capital by suspending dividends or share repurchase programs and raising new funds through bond and equity issues. We identify a short list of firm and stock characteristics that explains most of the cross-sectional variation in firms’ payout and fundraising decisions. We show that the expansive monetary policy stance pursued by the Federal Reserve in the early phase of the pandemic had a crucial impact on how firms timed and sequenced their actions. Movements in stock returns in the days surrounding corporate announcements were highly unusual during the pandemic, with suspensions of dividends or buybacks leading stock prices to recover, consistent with investors interpreting them as prudent actions that helped reduce firm risks.
-
 
 ## Published and forthcoming articles
 
