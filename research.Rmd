@@ -16,6 +16,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
+* Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) The Term Structure and Cross-Section of Cash Flow Risk (October 2022)\
+[[Link to SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4241054)  
+  + _INQUIRE 2020 Europe Research Grant_
+
+>We estimate the term structure of cash flow risk and its price of risk for the most prominent equity anomalies, at different frequencies, by directly modeling the dividend growth series instead of relying on a VAR-residual approach. We find the term structure of cash flow risk to be upward sloping for most anomaly portfolios. Moreover, the price of cash flow risk appears to be anomaly-specific -- different anomalies tend to display heterogeneous sensitivity to cash flow news -- and frequency-dependent -- for a given anomaly, this sensitivity varies with the horizon at which portfolios are evaluated.
+
 * Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Firm Value and Payout Suspensions During Financial Market Distress (August 2022)\
 [[Link to SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3823258)  
 
@@ -93,9 +99,6 @@ knitr::opts_chunk$set(echo = TRUE)
 <font size="+1">
 
 
-* Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) The Term Structure and Cross-Section of Cash Flow Risk
-  + _INQUIRE 2020 Europe Research Grant_
-  
 * Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  High-frequency fundamentals
   
 * [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  Modeling Stock-Bond Correlations
