@@ -13,8 +13,8 @@
 
 <title>research.knit</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -298,75 +299,251 @@ $(document).ready(function () {
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"> <link rel="stylesheet" href="css/academicons.min.css"/></p>
+<p><link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="css/academicons.min.css"/></p>
 <p><br />
 </p>
 <div id="working-papers" class="section level2">
 <h2>Working papers</h2>
 <p><font size="+1"></p>
 <ul>
-<li>Pettenuzzo, D., <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> The Term Structure and Cross-Section of Cash Flow Risk (October 2022)<br />
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4241054">[Link to SSRN version]</a>
+<li>Pettenuzzo, D., <a
+href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci,
+R.</a> The Term Structure and Cross-Section of Cash Flow Risk (October
+2022)<br />
+<a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4241054">[Link
+to SSRN version]</a>
 <ul>
 <li><em>INQUIRE 2020 Europe Research Grant</em></li>
 </ul></li>
 </ul>
 <blockquote>
-<p>We estimate the term structure of cash flow risk and its price of risk for the most prominent equity anomalies, at different frequencies, by directly modeling the dividend growth series instead of relying on a VAR-residual approach. We find the term structure of cash flow risk to be upward sloping for most anomaly portfolios. Moreover, the price of cash flow risk appears to be anomaly-specific – different anomalies tend to display heterogeneous sensitivity to cash flow news – and frequency-dependent – for a given anomaly, this sensitivity varies with the horizon at which portfolios are evaluated.</p>
+<p>We estimate the term structure of cash flow risk and its price of
+risk for the most prominent equity anomalies, at different frequencies,
+by directly modeling the dividend growth series instead of relying on a
+VAR-residual approach. We find the term structure of cash flow risk to
+be upward sloping for most anomaly portfolios. Moreover, the price of
+cash flow risk appears to be anomaly-specific – different anomalies tend
+to display heterogeneous sensitivity to cash flow news – and
+frequency-dependent – for a given anomaly, this sensitivity varies with
+the horizon at which portfolios are evaluated.</p>
 </blockquote>
 <ul>
-<li>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> Firm Value and Payout Suspensions During Financial Market Distress (August 2022)<br />
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3823258">[Link to SSRN version]</a></li>
+<li>Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a>, <a
+href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci,
+R.</a> Firm Value and Payout Suspensions During Financial Market
+Distress (August 2022)<br />
+<a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3823258">[Link
+to SSRN version]</a></li>
 </ul>
 <blockquote>
-<p>We use high-frequency data on firms’ dividend and buyback suspensions to estimate the effect on firm value from preserving cash during periods of financial market distress such as the Global Financial Crisis and the Covid-19 pandemic. Our results suggest that saving one percent in cash by suspending dividends is associated with a 2.5 percent increase in firm value. New dynamic tests based on the sequencing of firms’ financing decisions suggest that firm behavior was more in line with the Myers and Majluf (1984) pecking order theory during the pandemic than during the Global Financial Crisis.</p>
-</blockquote>
-<ul>
-<li>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> Dividend Suspensions and Cash Flows During the Covid-19 Pandemic: A Dynamic Econometric Model (May 2022)<br />
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608">[Link to SSRN version]</a></li>
-</ul>
-<blockquote>
-<p>Firms suspended dividend payments in unprecedented numbers in response to the outbreak of the Covid-19 pandemic. We develop a multivariate dynamic econometric model that allows dividend suspensions to affect the conditional mean, volatility, and jump probability of growth in daily industry-level dividends and demonstrate how the parameters of this model can be estimated using Bayesian Gibbs sampling methods. We find considerable heterogeneity across industries in the dynamics of daily dividend growth and the impact of dividend suspensions.</p>
+<p>We use high-frequency data on firms’ dividend and buyback suspensions
+to estimate the effect on firm value from preserving cash during periods
+of financial market distress such as the Global Financial Crisis and the
+Covid-19 pandemic. Our results suggest that saving one percent in cash
+by suspending dividends is associated with a 2.5 percent increase in
+firm value. New dynamic tests based on the sequencing of firms’
+financing decisions suggest that firm behavior was more in line with the
+Myers and Majluf (1984) pecking order theory during the pandemic than
+during the Global Financial Crisis.</p>
 </blockquote>
 </div>
 <div id="published-and-forthcoming-articles" class="section level2">
 <h2>Published and forthcoming articles</h2>
 <p><font size="+1"></p>
 <ul>
-<li><p>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="https://sites.google.com/view/ysong1">Yong, S.</a> (2022), Corrigendum to “Predictability of stock returns and asset allocation under structural breaks” [J. Econometrics 164 (2011) 60–78] <strong>Journal of Econometrics</strong>, 227: 513-517<br />
-<a href="https://www.sciencedirect.com/science/article/pii/S0304407621000476">[Published version]</a>    </p></li>
-<li><p><a href="https://sites.google.com/site/dimitriskorobilis/">Korobilis, D.</a>, Pettenuzzo, D. (2020) Machine Learning Econometrics: Bayesian Algorithms and Methods, <strong>Oxford Research Encyclopedia: Economics and Finance</strong><br />
-<a href="https://doi.org/10.1093/acrefore/9780190625979.013.588">[Published version]</a>     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433">[Working paper]</a>    </p></li>
-<li><p>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> (2020) Cash Flow News and Stock Price Dynamics, <strong>Journal of Finance</strong>, 75: 2221-2270<br />
-<a href="https://doi.org/10.1111/jofi.12901">[Published version]</a>     <a href="http://ssrn.com/abstract=3127042">[Working paper]</a>     <a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.12901&amp;file=jofi12901-sup-0001-OnlineAppendix.pdf">[Online Appendix]</a></p></li>
-<li><p><a href="http://faculty.mccombs.utexas.edu/carlos.carvalho/personal.html">Carvalho, C.</a>, <a href="https://www.linkedin.com/pub/jared-fisher/21/809/362">Fisher, J.</a>, Pettenuzzo, D. (2020) Optimal Asset Allocation with Multivariate Bayesian Dynamic Linear Models, <strong>Annals of Applied Statistics</strong>, 14: 299-338<br />
-<a href="https://projecteuclid.org/euclid.aoas/1587002676">[Published version]</a>     <a href="http://ssrn.com/abstract=3254935">[Working paper]</a>    </p></li>
-<li><p><a href="https://www.researchgate.net/profile/Zhiyuan_Pan2">Pan, Z.</a>, Pettenuzzo, D., <a href="https://www.researchgate.net/profile/Yudong_Wang12/publications">Wang, Y.</a> (2020) Forecasting Stock Returns: A Predictor-constrained Approach <strong>Journal of Empirical Finance</strong>, 55: 200-217<br />
-<a href="https://doi.org/10.1016/j.jempfin.2019.11.008">[Published version]</a>     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3054652">[Working paper]</a>    </p></li>
-<li><p><a href="https://sites.google.com/site/dimitriskorobilis/">Korobilis, D.</a>, Pettenuzzo, D. (2019) Adaptive Hierarchical Priors for High-Dimensional Vector Autoregressions, <strong>Journal of Econometrics</strong>, 212: 241-271<br />
-<a href="https://doi.org/10.1016/j.jeconom.2019.04.029">[Published version]</a>     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886053">[Working paper]</a>    </p></li>
-<li><p><a href="http://personal.strath.ac.uk/gary.koop/">Koop, G.</a>, <a href="https://sites.google.com/site/dimitriskorobilis/">Korobilis, D.</a> , Pettenuzzo, D. (2019) Bayesian Compressed Vector Autoregressions, <strong>Journal of Econometrics</strong>, 210: 135-154<br />
-<a href="https://doi.org/10.1016/j.jeconom.2018.11.009">[Published version]</a>     <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2754241">[Working paper]</a>     <a href="files/2017_06_05_BCVAR_Appendix.pdf">[Online Appendix]</a></p></li>
-<li><p><a href="http://fbe.unimelb.edu.au/finance/staff/academic/2524">Gargano, A.</a>, Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a> (2019) Bond Return Predictability: Economic Value and Links to the Macroeconomy, <strong>Management Science</strong>, 65: 508-540<br />
-<a href="http://pubsonline.informs.org/doi/abs/10.1287/mnsc.2017.2829">[Published version]</a>     <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2471273">[Working paper]</a>     <a href="files/2017_04_18_bond_return_predictability_ON_LINE_APPENDIX.pdf">[Online Appendix]</a></p></li>
-<li><p><a href="http://carleton.ca/economics/people/metaxoglou-konstantinos/">Metaxoglou, K.</a>, Pettenuzzo, D., <a href="http://are.ucdavis.edu/en/people/faculty/aaron-smith/#pk_campaign=short-name-redirect&amp;pk_kwd=asmith">Smith, A.</a> (2019) Option-Implied Equity Premium Predictions via Entropic Tilting, <strong>Journal of Financial Econometrics</strong>, 17: 559-586<br />
-<a href="https://academic.oup.com/jfec/article/17/4/559/4990347?guestAccessKey=20547485-7185-4cfb-aee6-c318b438e544">[Published version]</a>     <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2754246">[Working paper]</a>     <a href="files/MPS_JFEC_APX.pdf">[Online Appendix]</a></p></li>
-<li><p>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a> (2017) Forecasting Macroeconomic Variables Under Model Instability, <strong>Journal of Business and Economic Statistics</strong>, 35: 183-201<br />
-<a href="http://www.tandfonline.com/doi/abs/10.1080/07350015.2015.1051183">[Published version]</a>     <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2603879">[Working paper]</a>     <a href="files/Appendix_JBES_2015_May_5.pdf">[Online Appendix]</a></p></li>
-<li><p>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="http://rady.ucsd.edu/faculty/directory/valkanov/">Valkanov, R.</a> (2016) A MIDAS Approach to Modeling First and Second Moment Dynamics, <strong>Journal of Econometrics</strong>, 193: 315-334<br />
-<a href="http://www.sciencedirect.com/science/article/pii/S0304407616300665">[Published version]</a>     <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2471287">[Working paper]</a></p></li>
-<li><p>Pettenuzzo, D., <a href="http://francescoravazzolo.com/">Ravazzolo, F.</a> (2016) Optimal Potfolio Choice under Decision-Based Model Combinations, <strong>Journal of Applied Econometrics</strong>, 31: 1312-1332<br />
-<a href="http://onlinelibrary.wiley.com/doi/10.1002/jae.2502/abstract">[Published version]</a>     <a href="http://ssrn.com/abstract=2516950">[Working paper]</a>     <a href="files/Pettenuzzo_Ravazzolo_JAE_Appendix_Nov04.pdf">[Online Appendix]</a></p></li>
-<li><p>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a>, <a href="http://rady.ucsd.edu/faculty/directory/valkanov/">Valkanov, R.</a> (2014) Forecasting Stock Returns under Economic Constraints, <strong>Journal of Financial Economics</strong>, 114: 517-553<br />
-<a href="http://dx.doi.org/10.1016/j.jfineco.2014.07.015">[Published version]</a>     <a href="files/2013.12.02%20Pettenuzzo_Timmermann_Valkanov.pdf">[Working paper]</a></p></li>
-<li><p>Pettenuzzo, D., <a href="http://economics.ucsd.edu/facRes/inMemoriam/whiteHalbert/">White, H.</a> (2014) Granger Causality, Exogeneity, Cointegration, and Economic Policy Analysis, <strong>Journal of Econometrics</strong>, 178: 316-330<br />
-<a href="http://www.sciencedirect.com/science/article/pii/S0304407613001942">[Published version]</a>     <a href="files/2011_10_31%20Pettenuzzo%20and%20White.pdf">[Working paper]</a></p></li>
-<li><p>Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a> (2011) Predictability of Stock Returns and Asset Allocation under Structural Breaks, <strong>Journal of Econometrics</strong>, 164: 60-78<br />
-<a href="http://www.sciencedirect.com/science/article/pii/S0304407611000479">[Published version]</a>     <a href="files/Pettenuzzo%20and%20Timmermann%20(2011).pdf">[Working paper]</a>     <a href="files/2011%20JoE%20codes.zip">[Matlab codes]</a></p></li>
-<li><p><a href="http://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003600">Pesaran, H.</a>, Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a> (2007) Learning, Structural Instability, and Present Value Calculations, <strong>Econometric Reviews</strong>, 26: 253-288<br />
-<a href="http://www.tandfonline.com/doi/abs/10.1080/07474930701220352">[Published version]</a>     <a href="files/Pesaran%20et%20al%20(2007).pdf">[Working paper]</a></p></li>
-<li><p><a href="http://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003600">Pesaran, H.</a>, Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a> (2006) Forecasting Time Series subject to Structural Breaks, <strong>Review of Economic Studies</strong>, 73: 1057-1084<br />
-<a href="http://restud.oxfordjournals.org/content/73/4/1057.full">[Published version]</a>     <a href="files/Pesaran%20et%20al%20(2006).pdf">[Working paper]</a>     <a href="files/2006%20ReStud%20codes.zip">[Matlab codes]</a></p></li>
+<li><p>Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a>, <a
+href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci,
+R.</a> (2022), Dividend Suspensions and Cash Flows During the Covid-19
+Pandemic: A Dynamic Econometric Model, <strong>Journal of
+Econometrics</strong>, forthcoming<br />
+<a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608">[Link
+to SSRN version]</a></p></li>
+<li><p>Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a>, <a href="https://sites.google.com/view/ysong1">Yong, S.</a>
+(2022), Corrigendum to “Predictability of stock returns and asset
+allocation under structural breaks” [J. Econometrics 164 (2011) 60–78]
+<strong>Journal of Econometrics</strong>, 227: 513-517<br />
+<a
+href="https://www.sciencedirect.com/science/article/pii/S0304407621000476">[Published
+version]</a>    </p></li>
+<li><p><a
+href="https://sites.google.com/site/dimitriskorobilis/">Korobilis,
+D.</a>, Pettenuzzo, D. (2020) Machine Learning Econometrics: Bayesian
+Algorithms and Methods, <strong>Oxford Research Encyclopedia: Economics
+and Finance</strong><br />
+<a
+href="https://doi.org/10.1093/acrefore/9780190625979.013.588">[Published
+version]</a>     <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433">[Working
+paper]</a>    </p></li>
+<li><p>Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a>, <a
+href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci,
+R.</a> (2020) Cash Flow News and Stock Price Dynamics, <strong>Journal
+of Finance</strong>, 75: 2221-2270<br />
+<a href="https://doi.org/10.1111/jofi.12901">[Published version]</a>    
+<a href="http://ssrn.com/abstract=3127042">[Working paper]</a>     <a
+href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.12901&amp;file=jofi12901-sup-0001-OnlineAppendix.pdf">[Online
+Appendix]</a></p></li>
+<li><p><a
+href="http://faculty.mccombs.utexas.edu/carlos.carvalho/personal.html">Carvalho,
+C.</a>, <a
+href="https://www.linkedin.com/pub/jared-fisher/21/809/362">Fisher,
+J.</a>, Pettenuzzo, D. (2020) Optimal Asset Allocation with Multivariate
+Bayesian Dynamic Linear Models, <strong>Annals of Applied
+Statistics</strong>, 14: 299-338<br />
+<a href="https://projecteuclid.org/euclid.aoas/1587002676">[Published
+version]</a>     <a href="http://ssrn.com/abstract=3254935">[Working
+paper]</a>    </p></li>
+<li><p><a href="https://www.researchgate.net/profile/Zhiyuan_Pan2">Pan,
+Z.</a>, Pettenuzzo, D., <a
+href="https://www.researchgate.net/profile/Yudong_Wang12/publications">Wang,
+Y.</a> (2020) Forecasting Stock Returns: A Predictor-constrained
+Approach <strong>Journal of Empirical Finance</strong>, 55:
+200-217<br />
+<a href="https://doi.org/10.1016/j.jempfin.2019.11.008">[Published
+version]</a>     <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3054652">[Working
+paper]</a>    </p></li>
+<li><p><a
+href="https://sites.google.com/site/dimitriskorobilis/">Korobilis,
+D.</a>, Pettenuzzo, D. (2019) Adaptive Hierarchical Priors for
+High-Dimensional Vector Autoregressions, <strong>Journal of
+Econometrics</strong>, 212: 241-271<br />
+<a href="https://doi.org/10.1016/j.jeconom.2019.04.029">[Published
+version]</a>     <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886053">[Working
+paper]</a>    </p></li>
+<li><p><a href="http://personal.strath.ac.uk/gary.koop/">Koop, G.</a>,
+<a href="https://sites.google.com/site/dimitriskorobilis/">Korobilis,
+D.</a> , Pettenuzzo, D. (2019) Bayesian Compressed Vector
+Autoregressions, <strong>Journal of Econometrics</strong>, 210:
+135-154<br />
+<a href="https://doi.org/10.1016/j.jeconom.2018.11.009">[Published
+version]</a>     <a
+href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2754241">[Working
+paper]</a>     <a href="files/2017_06_05_BCVAR_Appendix.pdf">[Online
+Appendix]</a></p></li>
+<li><p><a
+href="http://fbe.unimelb.edu.au/finance/staff/academic/2524">Gargano,
+A.</a>, Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a> (2019) Bond Return Predictability: Economic Value and Links to
+the Macroeconomy, <strong>Management Science</strong>, 65: 508-540<br />
+<a
+href="http://pubsonline.informs.org/doi/abs/10.1287/mnsc.2017.2829">[Published
+version]</a>     <a
+href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2471273">[Working
+paper]</a>     <a
+href="files/2017_04_18_bond_return_predictability_ON_LINE_APPENDIX.pdf">[Online
+Appendix]</a></p></li>
+<li><p><a
+href="http://carleton.ca/economics/people/metaxoglou-konstantinos/">Metaxoglou,
+K.</a>, Pettenuzzo, D., <a
+href="http://are.ucdavis.edu/en/people/faculty/aaron-smith/#pk_campaign=short-name-redirect&amp;pk_kwd=asmith">Smith,
+A.</a> (2019) Option-Implied Equity Premium Predictions via Entropic
+Tilting, <strong>Journal of Financial Econometrics</strong>, 17:
+559-586<br />
+<a
+href="https://academic.oup.com/jfec/article/17/4/559/4990347?guestAccessKey=20547485-7185-4cfb-aee6-c318b438e544">[Published
+version]</a>     <a
+href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2754246">[Working
+paper]</a>     <a href="files/MPS_JFEC_APX.pdf">[Online
+Appendix]</a></p></li>
+<li><p>Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a> (2017) Forecasting Macroeconomic Variables Under Model
+Instability, <strong>Journal of Business and Economic
+Statistics</strong>, 35: 183-201<br />
+<a
+href="http://www.tandfonline.com/doi/abs/10.1080/07350015.2015.1051183">[Published
+version]</a>     <a
+href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2603879">[Working
+paper]</a>     <a href="files/Appendix_JBES_2015_May_5.pdf">[Online
+Appendix]</a></p></li>
+<li><p>Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a>, <a
+href="http://rady.ucsd.edu/faculty/directory/valkanov/">Valkanov, R.</a>
+(2016) A MIDAS Approach to Modeling First and Second Moment Dynamics,
+<strong>Journal of Econometrics</strong>, 193: 315-334<br />
+<a
+href="http://www.sciencedirect.com/science/article/pii/S0304407616300665">[Published
+version]</a>     <a
+href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2471287">[Working
+paper]</a></p></li>
+<li><p>Pettenuzzo, D., <a
+href="http://francescoravazzolo.com/">Ravazzolo, F.</a> (2016) Optimal
+Potfolio Choice under Decision-Based Model Combinations, <strong>Journal
+of Applied Econometrics</strong>, 31: 1312-1332<br />
+<a
+href="http://onlinelibrary.wiley.com/doi/10.1002/jae.2502/abstract">[Published
+version]</a>     <a href="http://ssrn.com/abstract=2516950">[Working
+paper]</a>     <a
+href="files/Pettenuzzo_Ravazzolo_JAE_Appendix_Nov04.pdf">[Online
+Appendix]</a></p></li>
+<li><p>Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a>, <a
+href="http://rady.ucsd.edu/faculty/directory/valkanov/">Valkanov, R.</a>
+(2014) Forecasting Stock Returns under Economic Constraints,
+<strong>Journal of Financial Economics</strong>, 114: 517-553<br />
+<a href="http://dx.doi.org/10.1016/j.jfineco.2014.07.015">[Published
+version]</a>     <a
+href="files/2013.12.02%20Pettenuzzo_Timmermann_Valkanov.pdf">[Working
+paper]</a></p></li>
+<li><p>Pettenuzzo, D., <a
+href="http://economics.ucsd.edu/facRes/inMemoriam/whiteHalbert/">White,
+H.</a> (2014) Granger Causality, Exogeneity, Cointegration, and Economic
+Policy Analysis, <strong>Journal of Econometrics</strong>, 178:
+316-330<br />
+<a
+href="http://www.sciencedirect.com/science/article/pii/S0304407613001942">[Published
+version]</a>     <a
+href="files/2011_10_31%20Pettenuzzo%20and%20White.pdf">[Working
+paper]</a></p></li>
+<li><p>Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a> (2011) Predictability of Stock Returns and Asset Allocation under
+Structural Breaks, <strong>Journal of Econometrics</strong>, 164:
+60-78<br />
+<a
+href="http://www.sciencedirect.com/science/article/pii/S0304407611000479">[Published
+version]</a>     <a
+href="files/Pettenuzzo%20and%20Timmermann%20(2011).pdf">[Working
+paper]</a>     <a href="files/2011%20JoE%20codes.zip">[Matlab
+codes]</a></p></li>
+<li><p><a
+href="http://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003600">Pesaran,
+H.</a>, Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a> (2007) Learning, Structural Instability, and Present Value
+Calculations, <strong>Econometric Reviews</strong>, 26: 253-288<br />
+<a
+href="http://www.tandfonline.com/doi/abs/10.1080/07474930701220352">[Published
+version]</a>     <a href="files/Pesaran%20et%20al%20(2007).pdf">[Working
+paper]</a></p></li>
+<li><p><a
+href="http://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003600">Pesaran,
+H.</a>, Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a> (2006) Forecasting Time Series subject to Structural Breaks,
+<strong>Review of Economic Studies</strong>, 73: 1057-1084<br />
+<a
+href="http://restud.oxfordjournals.org/content/73/4/1057.full">[Published
+version]</a>     <a href="files/Pesaran%20et%20al%20(2006).pdf">[Working
+paper]</a>     <a href="files/2006%20ReStud%20codes.zip">[Matlab
+codes]</a></p></li>
 </ul>
 <p><br />
 </p>
@@ -375,9 +552,21 @@ $(document).ready(function () {
 <h2>Work in progress</h2>
 <p><font size="+1"></p>
 <ul>
-<li><p>Pettenuzzo, D., <a href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci, R.</a> <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a> High-frequency fundamentals</p></li>
-<li><p><a href="https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/">Kastner, G.</a>, Pettenuzzo, D., <a href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann, A.</a> Modeling Stock-Bond Correlations</p></li>
-<li><p><a href="https://joshuachan.org">Chan, J.</a>, Pettenuzzo, D., <a href="https://sites.google.com/view/aubreybcpoon/home?authuser=0">Poon, A.</a>, <a href="https://research.monash.edu/en/persons/dan-zhu">Zhu, D.</a> Conditional Forecasts in Large Bayesian VARs with Multiple Conditions</p></li>
+<li><p>Pettenuzzo, D., <a
+href="https://sites.google.com/site/riccardosabbatucci/">Sabbatucci,
+R.</a> <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a> High-frequency fundamentals</p></li>
+<li><p><a
+href="https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/">Kastner,
+G.</a>, Pettenuzzo, D., <a
+href="http://rady.ucsd.edu/faculty/directory/timmermann/">Timmermann,
+A.</a> Modeling Stock-Bond Correlations</p></li>
+<li><p><a href="https://joshuachan.org">Chan, J.</a>, Pettenuzzo, D., <a
+href="https://sites.google.com/view/aubreybcpoon/home?authuser=0">Poon,
+A.</a>, <a href="https://research.monash.edu/en/persons/dan-zhu">Zhu,
+D.</a> Conditional Forecasts in Large Bayesian VARs with Multiple
+Conditions</p></li>
 </ul>
 </div>
 

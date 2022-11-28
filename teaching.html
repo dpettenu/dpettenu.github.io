@@ -13,8 +13,8 @@
 
 <title>teaching.knit</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -298,35 +299,75 @@ $(document).ready(function () {
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"> <link rel="stylesheet" href="css/academicons.min.css"/></p>
+<p><link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="css/academicons.min.css"/></p>
 <p><br />
 </p>
 <p><font size="+1"></p>
 <div id="econ-171a-financial-economics" class="section level2">
 <h2>ECON 171a: Financial Economics</strong></h2>
-<p>The course covers topics related to financial economics, including investors attitudes toward risk, capital allocation, portfolio selection, asset pricing models (Capital Asset Pricing Model and Arbitrage Pricing Theory), the efficient market hypothesis, fixed income markets, equity valuation, and options and futures markets.<br />
-<a href="files/2013.03.11%20Econ%20171a%20syllabus%20-%20revised.pdf">Link to syllabus (Spring 2013)</a></p>
+<p>The course covers topics related to financial economics, including
+investors attitudes toward risk, capital allocation, portfolio
+selection, asset pricing models (Capital Asset Pricing Model and
+Arbitrage Pricing Theory), the efficient market hypothesis, fixed income
+markets, equity valuation, and options and futures markets.<br />
+<a
+href="files/2013.03.11%20Econ%20171a%20syllabus%20-%20revised.pdf">Link
+to syllabus (Spring 2013)</a></p>
 <p><br />
 </p>
 </div>
 <div id="econ-184b-econometrics" class="section level2">
 <h2>ECON 184b: Econometrics</h2>
-<p>This course provides an introduction to multiple regression methods for analyzing data in economics and related disciplines. Starting from the linear regression method, the course will extend to regression with discrete random variables, instrumental variables regression, analysis of random experiments and quasi-experiments, and regression with time series data. The objective of the course is twofold: (i) understand the logic and the key intuitions behind the various econometric procedures, and (ii) learn how to conduct and how to critique empirical studies in economics and related fields. Accordingly, the course will devote significant space to empirical applications. Through the use of econometric software and a variety of empirical data sets, you will have the opportunity to gain hands-on experience on how to conduct empirical work in econometrics.<br />
-<a href="files/2014.01.08%20Econ%20184b%20syllabus.pdf">Link to syllabus (Spring 2014)</a></p>
+<p>This course provides an introduction to multiple regression methods
+for analyzing data in economics and related disciplines. Starting from
+the linear regression method, the course will extend to regression with
+discrete random variables, instrumental variables regression, analysis
+of random experiments and quasi-experiments, and regression with time
+series data. The objective of the course is twofold: (i) understand the
+logic and the key intuitions behind the various econometric procedures,
+and (ii) learn how to conduct and how to critique empirical studies in
+economics and related fields. Accordingly, the course will devote
+significant space to empirical applications. Through the use of
+econometric software and a variety of empirical data sets, you will have
+the opportunity to gain hands-on experience on how to conduct empirical
+work in econometrics.<br />
+<a href="files/2014.01.08%20Econ%20184b%20syllabus.pdf">Link to syllabus
+(Spring 2014)</a></p>
 <p><br />
 </p>
 </div>
 <div id="econ-213a-applied-econometrics-with-r" class="section level2">
 <h2>ECON 213a: Applied Econometrics with R</h2>
-<p>This course aims at introducing econometric models and empirical techniques that are useful to conduct economic research with data. The course covers linear regression models, discrete choice models, time series models, and panel data models. We will devote significant space to empirical applications, and give the students the opportunity to gain hands-on experience on how to conduct empirical work in econometrics using the R programming language.<br />
-<a href="files/2018.03.25%20Econ%20213a%20syllabus.pdf">Link to syllabus (Fall 2018)</a></p>
+<p>This course aims at introducing econometric models and empirical
+techniques that are useful to conduct economic research with data. The
+course covers linear regression models, discrete choice models, time
+series models, and panel data models. We will devote significant space
+to empirical applications, and give the students the opportunity to gain
+hands-on experience on how to conduct empirical work in econometrics
+using the R programming language.<br />
+<a href="files/2018.03.25%20Econ%20213a%20syllabus.pdf">Link to syllabus
+(Fall 2018)</a></p>
 <p><br />
 </p>
 </div>
 <div id="econ-312a-advanced-econometrics-ii" class="section level2">
 <h2>ECON 312a: Advanced Econometrics II</h2>
-<p>This course examines the models and statistical techniques used to study time series data. Topics include linear and non-linear univariate as well as multivariate econometric models. The first goal of the course is to provide students with a good understanding of econometric models for time series data. These models are widely used in the empirical macroecomic and financial literature, and a good understanding of these models is crucial for the second goal of the course, provide students with the tools to understand and evaluate empirical studies. The third goal of the course is to develop empirical skills, which are necessary to perform independent research using real world data. A theme throughout the course is the use of computational methods for analyzing the material covered in class, and throughout the course we will rely heavily on examples and applications using the software MatLab.<br />
-<a href="files/2014.02.27%20Econ%20312a%20syllabus.pdf">Link to syllabus (Spring 2014)</a></p>
+<p>This course examines the models and statistical techniques used to
+study time series data. Topics include linear and non-linear univariate
+as well as multivariate econometric models. The first goal of the course
+is to provide students with a good understanding of econometric models
+for time series data. These models are widely used in the empirical
+macroecomic and financial literature, and a good understanding of these
+models is crucial for the second goal of the course, provide students
+with the tools to understand and evaluate empirical studies. The third
+goal of the course is to develop empirical skills, which are necessary
+to perform independent research using real world data. A theme
+throughout the course is the use of computational methods for analyzing
+the material covered in class, and throughout the course we will rely
+heavily on examples and applications using the software MatLab.<br />
+<a href="files/2014.02.27%20Econ%20312a%20syllabus.pdf">Link to syllabus
+(Spring 2014)</a></p>
 </div>
 
 
