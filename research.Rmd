@@ -16,14 +16,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
+* [Chan, J.](https://joshuachan.org), Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Zhu, D.](https://research.monash.edu/en/persons/dan-zhu) Conditional Forecasts in Large Bayesian VARs with Multiple Soft and Hard Constraints (February 2023)\
+[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4358152) 
+
+>Conditional forecasts, i.e. projections of a set of variables of interest on the future paths of some other variables, are used routinely by empirical macroeconomists in a number of applied settings. In spite of this, the existing algorithms used to generate conditional forecasts tend to be very computationally intensive, especially when working with large VARs or when multiple soft and hard constraints are imposed at once. We introduce a novel precision-based sampler that is fast, scales well, and yields conditional forecasts from both hard or soft constraints. We show in a simulation study that the proposed method produces forecasts that are identical to those from the existing algorithms but in a fraction of the time. We then illustrate the performance of our method in a large Bayesian VAR where we impose, simultaneously, a mix of soft and hard constraints on the future trajectories of a few key US macroeconomic indicators over the 2020–2022 time period.
+
 * Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) The Term Structure and Cross-Section of Cash Flow Risk (October 2022)\
-[[Link to SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4241054)  
+[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4241054)  
   + _INQUIRE 2020 Europe Research Grant_
 
 >We estimate the term structure of cash flow risk and its price of risk for the most prominent equity anomalies, at different frequencies, by directly modeling the dividend growth series instead of relying on a VAR-residual approach. We find the term structure of cash flow risk to be upward sloping for most anomaly portfolios. Moreover, the price of cash flow risk appears to be anomaly-specific -- different anomalies tend to display heterogeneous sensitivity to cash flow news -- and frequency-dependent -- for a given anomaly, this sensitivity varies with the horizon at which portfolios are evaluated.
 
 * Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) Firm Value and Payout Suspensions During Financial Market Distress (August 2022)\
-[[Link to SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3823258)  
+[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3823258)  
 
 > We use high-frequency data on firms’ dividend and buyback suspensions to estimate the effect on firm value from preserving cash during periods of financial market distress such as the Global Financial Crisis and the Covid-19 pandemic. Our results suggest that saving one percent in cash by suspending dividends is associated with a 2.5 percent increase in firm value. New dynamic tests based on the sequencing of firms’ financing decisions suggest that firm behavior was more in line with the Myers and Majluf (1984) pecking order theory during the pandemic than during the Global Financial Crisis.
 
@@ -35,7 +40,7 @@ knitr::opts_chunk$set(echo = TRUE)
 [[Published version]](https://www.sciencedirect.com/science/article/pii/S0165176523000496) &nbsp; &nbsp;
 
 1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (2023), Dividend Suspensions and Cash Flows During the Covid-19 Pandemic: A Dynamic Econometric Model, __Journal of Econometrics__, forthcoming \
-[[Link to SSRN version]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608)  
+[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608)  
 
 1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Yong, S.](https://sites.google.com/view/ysong1) (2022), Corrigendum to “Predictability of stock returns and asset allocation under structural breaks” [J. Econometrics 164 (2011) 60–78], __Journal of Econometrics__, 227: 513-517 \
 [[Published version]](https://www.sciencedirect.com/science/article/pii/S0304407621000476) &nbsp; &nbsp;
@@ -103,8 +108,6 @@ knitr::opts_chunk$set(echo = TRUE)
 * Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  High-frequency fundamentals
   
 * [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  Modeling Stock-Bond Correlations
-
-* [Chan, J.](https://joshuachan.org), Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Zhu, D.](https://research.monash.edu/en/persons/dan-zhu) Conditional Forecasts in Large Bayesian VARs with Multiple Conditions
 
 
 
