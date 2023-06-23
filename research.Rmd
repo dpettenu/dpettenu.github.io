@@ -39,8 +39,8 @@ knitr::opts_chunk$set(echo = TRUE)
 1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (2023), Payout suspensions during the Covid-19 pandemic, __Economics Letters__, forthcoming \
 [[Published version]](https://www.sciencedirect.com/science/article/pii/S0165176523000496) &nbsp; &nbsp;
 
-1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (2023), Dividend Suspensions and Cash Flows During the Covid-19 Pandemic: A Dynamic Econometric Model, __Journal of Econometrics__, forthcoming \
-[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608)  
+1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (2023), Dividend Suspensions and Cash Flows During the Covid-19 Pandemic: A Dynamic Econometric Model, __Journal of Econometrics__, 235:1522--1541  \
+[[Published version]](https://www.sciencedirect.com/science/article/pii/S030440762300012X?via%3Dihub) &nbsp; &nbsp; [[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628608)  
 
 1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Yong, S.](https://sites.google.com/view/ysong1) (2022), Corrigendum to “Predictability of stock returns and asset allocation under structural breaks” [J. Econometrics 164 (2011) 60–78], __Journal of Econometrics__, 227: 513-517 \
 [[Published version]](https://www.sciencedirect.com/science/article/pii/S0304407621000476) &nbsp; &nbsp;
