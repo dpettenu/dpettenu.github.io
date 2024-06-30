@@ -16,6 +16,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
+*[Carriero, A.](https://www.qmul.ac.uk/sef/staff/andreacarriero.html), Pettenuzzo, D, [Shekhar, S.](https://shubhranshu-shekhar.github.io) Macroeconomic Forecasting with Large Language Models (June 2024)
+[[Link to SSRN]]() 
+
+>This paper presents a comparative analysis evaluating the accuracy of Large Language Models (LLMs) against traditional macro time series forecasting approaches. In recent times, LLMs have surged in popularity for forecasting due to their ability to capture intricate patterns in data and quickly adapt across very different domains. However, their effectiveness in forecasting macroeconomic time series data compared to conventional methods remains an area of interest. To address this, we conduct a rigorous evaluation of LLMs against traditional macro forecasting methods, using as common ground the FRED-MD database. Our findings provide valuable insights into the strengths and limitations of LLMs in forecasting macroeconomic time series, shedding light on their applicability in real-world scenarios.
+
 * [Chan, J.](https://joshuachan.org), Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Zhu, D.](https://research.monash.edu/en/persons/dan-zhu) Conditional Forecasts in Large Bayesian VARs with Multiple Soft and Hard Constraints (February 2023)\
 [[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4358152) 
 
@@ -36,7 +41,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
-1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (2023), Payout suspensions during the Covid-19 pandemic, __Economics Letters__, forthcoming \
+1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (2023), Payout suspensions during the Covid-19 pandemic, __Economics Letters__, 224:111024 \
 [[Published version]](https://www.sciencedirect.com/science/article/pii/S0165176523000496) &nbsp; &nbsp;
 
 1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (2023), Dividend Suspensions and Cash Flows During the Covid-19 Pandemic: A Dynamic Econometric Model, __Journal of Econometrics__, 235:1522--1541  \
