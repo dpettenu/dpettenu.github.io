@@ -16,7 +16,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
-* [Carriero, A.](https://www.qmul.ac.uk/sef/staff/andreacarriero.html), Pettenuzzo, D, [Shekhar, S.](https://shubhranshu-shekhar.github.io) Macroeconomic Forecasting with Large Language Models (June 2024)
+* Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  Financial Statements and Macroeconomic Dynamics (August 2024) \
+[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4922676)
+
+>What do companies' 10-Q filings reveal about the state of the macro economy and do specific accounting variables contain particularly relevant information? To address these questions, we analyze the lead-lag patterns of more than twenty accounting variables in relation to aggregate economic activity. We develop new daily corporate account business activity indices that aggregate firm-level accounting information while controlling for shifts in the composition of announcers and reducing firm-specific noise. Our new indices show that firm liquidity becomes significantly lower while corporate debt grows significantly faster several months prior to recessions, and thus can be used as leading indicators. Conversely, operations, earnings, and profitability measures tend to be significantly lower after recessions, suggesting they are mostly lagging, pro-cyclical indicators of economic activity.
+
+* [Carriero, A.](https://www.qmul.ac.uk/sef/staff/andreacarriero.html), Pettenuzzo, D, [Shekhar, S.](https://shubhranshu-shekhar.github.io) Macroeconomic Forecasting with Large Language Models (June 2024) \
 [[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4881094) 
 
 >This paper presents a comparative analysis evaluating the accuracy of Large Language Models (LLMs) against traditional macro time series forecasting approaches. In recent times, LLMs have surged in popularity for forecasting due to their ability to capture intricate patterns in data and quickly adapt across very different domains. However, their effectiveness in forecasting macroeconomic time series data compared to conventional methods remains an area of interest. To address this, we conduct a rigorous evaluation of LLMs against traditional macro forecasting methods, using as common ground the FRED-MD database. Our findings provide valuable insights into the strengths and limitations of LLMs in forecasting macroeconomic time series, shedding light on their applicability in real-world scenarios.
@@ -109,9 +114,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
-
-* Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  High-frequency fundamentals
-  
 * [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  Modeling Stock-Bond Correlations
 
 
