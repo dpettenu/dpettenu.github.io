@@ -16,6 +16,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
+* Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Zhu, D.](https://research.monash.edu/en/persons/dan-zhu), Modeling and Forecasting Count Data with Bayesian Vector Autoregressions (June 2025) \
+[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285954)
+
+>We develop a novel framework for modeling and forecasting time series of count data, extending the traditional Vector Autoregression (VAR) framework to accommodate count-like outcomes. Our approach allows for joint modeling of multiple count and continuous variables, capturing their dynamic interactions within a unified system. By introducing a latent utility-based structure and incorporating multivariate stochastic volatility, our method can flexibly handle over-dispersion, skewness, and time-varying volatility in the data. We cast our model in a Bayesian framework and introduce a novel state-space representation and an efficient sampler to handle its estimation. An extensive simulation study and two empirical macroeconomic applications illustrate the robustness and forecasting accuracy of the proposed approach.
+
 * Pettenuzzo, D., [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/)  Financial Statements and Macroeconomic Dynamics (August 2024) \
 [[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4922676) &nbsp; &nbsp; [[Data]](http://www.corporateactivitytracker.com)
 
@@ -100,8 +105,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Work in progress and older working papers
 
 <font size="+1">
-
-* Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Zhu, D.](https://research.monash.edu/en/persons/dan-zhu), Modeling and Forecasting Count Data with Vector Autoregressions 
 
 * [Kastner, G.](https://www.wu.ac.at/en/statmath/faculty-staff/faculty/gkastner/), Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/) Modeling Stock-Bond Correlations
 
