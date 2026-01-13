@@ -16,6 +16,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
+* Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Zhu, D.](https://research.monash.edu/en/persons/dan-zhu), Revealing Growth-at-Risk Through Daily Corporate Activity: New Evidence from a Functional Quantile MIDAS Model (January 2026) \
+[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6063534)
+
+>This paper introduces a new Growth-at-Risk (GaR) framework that incorporates daily firm-level corporate activity data, an information source previously unused in GaR analysis. Motivated by macro-finance theory emphasizing the role of firm balance sheets in amplifying shocks, we exploit a novel dataset of daily accounting-based indicators capturing firms' liquidity, leverage, and operating performance. We link these high-frequency measures to quarterly GDP by developing a quantile MIDAS model with a continuous Fourier weighting scheme. We apply this framework to U.S. data and show that both the levels and cross-sectional dispersion of corporate activity provide significant early-warning signals of macroeconomic stress. Our model delivers substantial improvements in predictive accuracy relative to the benchmark GaR approach and MIDAS-based extensions using monthly financial indicators. The results highlight the value of high-frequency corporate information for real-time monitoring of downside macroeconomic risks.
+
+* [Carriero, A.](https://www.qmul.ac.uk/sef/staff/andreacarriero.html), Pettenuzzo, D, [Shekhar, S.](https://shubhranshu-shekhar.github.io) Macroeconomic Forecasting with Large Language Models (September 2025) \
+[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4881094)  &nbsp; &nbsp; [[Slides]](files/2024_09_20 Forecasting_with_LLMs (slides).pdf)
+
+>This paper presents a comparative analysis evaluating the accuracy of Large Language Models (LLMs) against traditional macro time series forecasting approaches. In recent times, LLMs have surged in popularity for forecasting due to their ability to capture intricate patterns in data and quickly adapt across very different domains. However, their effectiveness in forecasting macroeconomic time series data compared to conventional methods remains an area of interest. To address this, we conduct a rigorous evaluation of LLMs against traditional macro forecasting methods, using as common ground the FRED-MD database. Our findings provide valuable insights into the strengths and limitations of LLMs in forecasting macroeconomic time series, shedding light on their applicability in real-world scenarios.
+
 * Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Zhu, D.](https://research.monash.edu/en/persons/dan-zhu), Modeling and Forecasting Count Data with Bayesian Vector Autoregressions (June 2025) \
 [[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285954)
 
@@ -26,10 +36,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 >What do companies' 10-Q filings reveal about the state of the macro economy and do specific accounting variables contain particularly relevant information? To address these questions, we analyze the lead-lag patterns of more than twenty accounting variables in relation to aggregate economic activity. We develop new daily corporate account business activity indices that aggregate firm-level accounting information while controlling for shifts in the composition of announcers and reducing firm-specific noise. Our new indices show that firm liquidity becomes significantly lower while corporate debt grows significantly faster several months prior to recessions, and thus can be used as leading indicators. Conversely, operations, earnings, and profitability measures tend to be significantly lower after recessions, suggesting they are mostly lagging, pro-cyclical indicators of economic activity.
 
-* [Carriero, A.](https://www.qmul.ac.uk/sef/staff/andreacarriero.html), Pettenuzzo, D, [Shekhar, S.](https://shubhranshu-shekhar.github.io) Macroeconomic Forecasting with Large Language Models (June 2024) \
-[[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4881094)  &nbsp; &nbsp; [[Slides]](files/2024_09_20 Forecasting_with_LLMs (slides).pdf)
-
->This paper presents a comparative analysis evaluating the accuracy of Large Language Models (LLMs) against traditional macro time series forecasting approaches. In recent times, LLMs have surged in popularity for forecasting due to their ability to capture intricate patterns in data and quickly adapt across very different domains. However, their effectiveness in forecasting macroeconomic time series data compared to conventional methods remains an area of interest. To address this, we conduct a rigorous evaluation of LLMs against traditional macro forecasting methods, using as common ground the FRED-MD database. Our findings provide valuable insights into the strengths and limitations of LLMs in forecasting macroeconomic time series, shedding light on their applicability in real-world scenarios.
 
 ## Published and forthcoming articles
 
@@ -46,6 +52,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Yong, S.](https://sites.google.com/view/ysong1) (2022), Corrigendum to “Predictability of stock returns and asset allocation under structural breaks” [J. Econometrics 164 (2011) 60–78], __Journal of Econometrics__, 227: 513-517 \
 [[Published version]](https://www.sciencedirect.com/science/article/pii/S0304407621000476) &nbsp; &nbsp;
+
+1. Pettenuzzo, D., [Timmermann, A.](http://rady.ucsd.edu/faculty/directory/timmermann/), [Sabbatucci, R.](https://sites.google.com/site/riccardosabbatucci/) (2021), Outlasting the pandemic: Corporate payout and financing decisions during Covid-19, __COVID Economics__, 78  \
+[[Published version]](https://cepr.org/publications/dp16145) &nbsp; &nbsp;  [[Working paper]](files/Outlasting_the_pandemic_WP.pdf) &nbsp; &nbsp;
 
 1. [Korobilis, D.](https://sites.google.com/site/dimitriskorobilis/), Pettenuzzo, D. (2020) Machine Learning Econometrics: Bayesian Algorithms and Methods, __Oxford Research Encyclopedia: Economics and Finance__  \
 [[Published version]](https://doi.org/10.1093/acrefore/9780190625979.013.588) &nbsp; &nbsp; [[Working paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3580433) &nbsp; &nbsp; 

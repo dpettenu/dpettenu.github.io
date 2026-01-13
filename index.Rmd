@@ -11,18 +11,25 @@
 \
 \
 
-<p style="text-align:justify"> I am a Professor of Financial Econometrics in the Brandeis International Business School. My research interests include time-series econometrics, Bayesian econometrics, asset allocation, portfolio optimization, and econometric methods in finance. I serve as an associate editor for the [Journal of Financial Econometrics](http://jfec.oxfordjournals.org/). At Brandeis University, I teach econometrics at the undergraduate and graduate levels, as well as Financial Economics. </p>
+<p style="text-align:justify">  
+
+I am a Professor of Financial Econometrics at [Brandeis School of Business and Economics](https://www.brandeis.edu/global/). My research focuses on time-series econometrics, Bayesian methods, asset allocation, and portfolio optimization, with applications to forecasting, financial markets, and macroeconomic dynamics. 
+
+My work has been published in leading journals including the Journal of Finance, the Journal of Financial Economics, Management Science, Review of Economic Studies, and the Journal of Econometrics.
+
+At Brandeis, I teach econometrics across undergraduate, master’s, and PhD programs, where I emphasize empirical applications and computational implementations. I also serve as an Associate Editor for the Journal of Financial Econometrics.
+
+Prior to joining Brandeis, I worked in the antitrust practice of the litigation consuting firm [Bates White LLC](http://bateswhite.com/) in SanDiego, CA. I earned my Ph.D. in Economics from Bocconi University. 
+
+</p>
 
 \
 \
-\
-\
-
 __Contact information:__
 
 
 Brandeis University </br>
-International Business School </br>
+School of Business and Economics </br>
 415 South Street, Mailstop 032 </br>
 Waltham, MA  02453-2728 </br>
 Phone:  +1 (781) 736 2834 </br>
