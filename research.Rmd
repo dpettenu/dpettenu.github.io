@@ -16,11 +16,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="+1">
 
-* [Carriero, A.](https://www.qmul.ac.uk/sef/staff/andreacarriero.html), Huber, F., Pettenuzzo, D. Double Descent and Benign Overfitting in Macroeconomic Forecasting *(coming soon)*
+* [Carriero, A.](https://www.qmul.ac.uk/sef/staff/andreacarriero.html), [Huber, F.](https://sites.google.com/site/fhuber7/), Pettenuzzo, D. Double Descent and Benign Overfitting in Macroeconomic Forecasting *(coming soon)*
 
 * [Carriero, A.](https://www.qmul.ac.uk/sef/staff/andreacarriero.html), Pettenuzzo, D., [Shekhar, S.](https://shubhranshu-shekhar.github.io) MacroCast: A Vintage-Consistent Time Series Foundation Model for Real-Time Macroeconomic Forecasting *(coming soon)*
 
-* Ortiz, A., Ortiz-Gimenez, V., Giannone, D., Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), Rodrigo, T. A Weekly VAR for Seasonal Retail Data: Evidence from Spanish Retail Transaction Data *(coming soon)*
+<!-- * [Ortiz, A.](https://www.bbvaresearch.com/en/author/alvaroortiz/), [Ortiz-Gimenez, V.](https://www.bbvaresearch.com/en/author/victor-ortiz-gimenez/), [Giannone, D.](https://econ.jhu.edu/directory/domenico-giannone/), Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Rodrigo, T.](https://www.bbvaresearch.com/author/tomasarodrigo/) A Weekly VAR for Seasonal Retail Data: Evidence from Spanish Retail Transaction Data *(coming soon)* -->
 
 * Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Zhu, D.](https://research.monash.edu/en/persons/dan-zhu), Revealing Growth-at-Risk Through Daily Corporate Activity: New Evidence from a Functional Quantile MIDAS Model (January 2026) \
 [[Link to SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6063534)
