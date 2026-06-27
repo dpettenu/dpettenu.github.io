@@ -7,6 +7,8 @@ navbar:
     href: research.html
   - text: Teaching
     href: teaching.html
+  - text: MacroCast
+    href: macrocast/index.html
   - text: Personal
     href: personal.html
   right:

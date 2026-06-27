@@ -13,7 +13,7 @@
 
 <title>research.knit</title>
 
-<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -252,6 +252,9 @@ $(document).ready(function () {
   <a href="teaching.html">Teaching</a>
 </li>
 <li>
+  <a href="macrocast/index.html">MacroCast</a>
+</li>
+<li>
   <a href="personal.html">Personal</a>
 </li>
       </ul>
@@ -307,20 +310,73 @@ $(document).ready(function () {
 <h2>Working papers</h2>
 <p><font size="+1"></p>
 <ul>
-<li><a href="https://www.qmul.ac.uk/sef/staff/andreacarriero.html">Carriero, A.</a>, <a href="https://sites.google.com/site/fhuber7/">Huber, F.</a>, Pettenuzzo, D. Double Descent and Benign Overfitting in Macroeconomic Forecasting<br />
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6766525">[Link to SSRN]</a></li>
+<li><a
+href="https://www.qmul.ac.uk/sef/staff/andreacarriero.html">Carriero,
+A.</a>, Pettenuzzo, D., <a
+href="https://shubhranshu-shekhar.github.io">Shekhar, S.</a> MacroCast:
+A Vintage-Consistent Time Series Foundation Model for Real-Time
+Macroeconomic Forecasting<br />
+<a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7004218">[Link
+to SSRN]</a>     <a href="macrocast/index.html">[Try it]</a></li>
 </ul>
 <blockquote>
-<p>We study double descent and benign overfitting in macroeconomic forecasting. We document that double-descent risk curves arise in standard macroeconomic datasets that are driven by a small number of latent factors, and we characterize when the underlying benign-overfitting mechanism holds. The conditions of Bartlett et al. (2020) are satisfied under the exact factor model and can also hold under the more realistic approximate factor model, provided idiosyncratic variances are not too dispersed across series. Because macroeconomic panels have only moderate dimensions, the overparameterization ratio N/T required by the theory is not naturally available. Our solution is to augment the data with synthetic copies from an estimated factor model and we prove that this strategy converges to a kernel ridge regression with a factor-structured kernel. Using monthly (FRED-MD) and quarterly (FRED-QD) US data, the resulting estimator consistently outperforms the Stock-Watson factor model for point forecasting across all series and horizons, with gains that are pervasive, statistically significant, and increasing with the forecast horizon. Our results suggest that benign overfitting, when it works, succeeds because overparameterization implicitly constructs a well-behaved kernel, not because overparameterization is intrinsically desirable.</p>
+<p>We introduce MACROCAST, a lightweight Time Series Foundation Model
+(TSFM) for real-time macroeconomic forecasting. Existing TSFMs suffer
+from data leakage in two forms: temporal contamination, as the model may
+have seen the realized values of the series it forecasts, and revision
+bias, as training on fully revised data diverges from the preliminary,
+vintage-specific releases available to real-time forecasters. MACROCAST
+is, to our knowledge, the first TSFM that rules out both forms of
+leakage entirely: at no stage of training is the model exposed to
+information that would not have been available to a forecaster in real
+time. We train MACROCAST first on purely synthetic time series in
+approximately one GPU-day and then fine-tune it on synthetic time series
+drawn from Bayesian VARs, dynamic factor models, and ARIMA
+specifications estimated on vintage-specific ALFRED data. Because
+pretraining uses only simulated data and fine-tuning uses only real-time
+vintages, no observed future or revised value ever enters the model;
+each fine-tuning run takes nine minutes. Evaluated on the FRED-MD
+database in a genuine real-time out-of-sample exercise, MACROCAST
+improves on the AR(1) benchmark for roughly 80% of series–horizon pairs,
+matches or surpasses Chronos-2 — the strongest currently available TSFM
+— and outperforms the Bayesian VAR and dynamic factor model benchmarks,
+all in a data-leakage-free manner.</p>
 </blockquote>
 <ul>
+<li><a
+href="https://www.qmul.ac.uk/sef/staff/andreacarriero.html">Carriero,
+A.</a>, <a href="https://sites.google.com/site/fhuber7/">Huber, F.</a>,
+Pettenuzzo, D. Double Descent and Benign Overfitting in Macroeconomic
+Forecasting<br />
+<a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6766525">[Link
+to SSRN]</a></li>
 </ul>
-<ul>
-<li><a href="https://www.qmul.ac.uk/sef/staff/andreacarriero.html">Carriero, A.</a>, Pettenuzzo, D., <a href="https://shubhranshu-shekhar.github.io">Shekhar, S.</a> MacroCast: A Vintage-Consistent Time Series Foundation Model for Real-Time Macroeconomic Forecasting <em>(coming soon)</em></li>
-</ul>
-<!-- <ul>
-<li><a href="https://www.bbvaresearch.com/en/author/alvaroortiz/">Ortiz, A.</a>, <a href="https://www.bbvaresearch.com/en/author/victor-ortiz-gimenez/">Ortiz-Gimenez, V.</a>, <a href="https://econ.jhu.edu/directory/domenico-giannone/">Giannone, D.</a>, Pettenuzzo, D., <a href="https://sites.google.com/view/aubreybcpoon/home?authuser=0">Poon, A.</a>, <a href="https://www.bbvaresearch.com/author/tomasarodrigo/">Rodrigo, T.</a> A Weekly VAR for Seasonal Retail Data: Evidence from Spanish Retail Transaction Data <em>(coming soon)</em></li>
-</ul> -->
+<blockquote>
+<p>We study double descent and benign overfitting in macroeconomic
+forecasting. We document that double-descent risk curves arise in
+standard macroeconomic datasets that are driven by a small number of
+latent factors, and we characterize when the underlying
+benign-overfitting mechanism holds. The conditions of Bartlett et
+al. (2020) are satisfied under the exact factor model and can also hold
+under the more realistic approximate factor model, provided
+idiosyncratic variances are not too dispersed across series. Because
+macroeconomic panels have only moderate dimensions, the
+overparameterization ratio N/T required by the theory is not naturally
+available. Our solution is to augment the data with synthetic copies
+from an estimated factor model and we prove that this strategy converges
+to a kernel ridge regression with a factor-structured kernel. Using
+monthly (FRED-MD) and quarterly (FRED-QD) US data, the resulting
+estimator consistently outperforms the Stock-Watson factor model for
+point forecasting across all series and horizons, with gains that are
+pervasive, statistically significant, and increasing with the forecast
+horizon. Our results suggest that benign overfitting, when it works,
+succeeds because overparameterization implicitly constructs a
+well-behaved kernel, not because overparameterization is intrinsically
+desirable.</p>
+</blockquote>
+<!-- * [Ortiz, A.](https://www.bbvaresearch.com/en/author/alvaroortiz/), [Ortiz-Gimenez, V.](https://www.bbvaresearch.com/en/author/victor-ortiz-gimenez/), [Giannone, D.](https://econ.jhu.edu/directory/domenico-giannone/), Pettenuzzo, D., [Poon, A.](https://sites.google.com/view/aubreybcpoon/home?authuser=0), [Rodrigo, T.](https://www.bbvaresearch.com/author/tomasarodrigo/) A Weekly VAR for Seasonal Retail Data: Evidence from Spanish Retail Transaction Data *(coming soon)* -->
 <ul>
 <li>Pettenuzzo, D., <a
 href="https://sites.google.com/view/aubreybcpoon/home?authuser=0">Poon,
